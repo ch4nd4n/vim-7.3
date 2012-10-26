@@ -28,3 +28,4 @@ set noswapfile
 set backupdir=~/.vim/backups
 set backupcopy=yes
 set incsearch
+au BufNewFile,BufRead *.less set filetype=less
